@@ -3,10 +3,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Uday Goyat</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Uday Goyat</h1> 
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi suscipit ipsam, velit corporis aut nisi mollitia unde eum! Earum, eligendi qui. Ipsum similique perferendis consequuntur cupiditate assumenda error? Saepe, nulla?</p>
+    <div class="grid-container">
+        <div class="menu">
+            <img src="img/generative_portrait_4.png" class="portrait" alt="portrait">
+            <h1 class="menu-content">Uday Goyat</h1>
+            <nav class="menu-content">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#generative">Generative Art</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </nav>
+
+            <footer class="menu-content">
+                <li><a href=""><ion-icon name="document-outline"></ion-icon></a></li>
+                <li><a href=""><ion-icon name="logo-instagram"></ion-icon></a></li>
+                <li><a href=""><ion-icon name="logo-linkedin"></ion-icon></a></li> 
+                <li><a href=""><ion-icon name="logo-youtube"></ion-icon></a></li> 
+                <li><a href=""><ion-icon name="logo-github"></ion-icon></a></li> 
+            </footer>
+        </div>
+
+        <article>
+            <h2 id="about-title">About Me</h2>
+            <div class="about">
+                <h3>Education</h3>
+                <div>
+                    <li>Pine View School: High School Diploma (2018-2022)</li>
+                    <li>Georgia Institute of Technology: Bsc. Computer Science (2022-2025)</li>
+                </div>
+                <h3>Experience</h3>
+                <div>
+                    <li>Assistant Researcher under Dr. Gillman at NCF (2021-2022)</li>
+                    <li>Coding Mentor at Suncoast Science Center (2020-2022)</li>
+                </div>
+                <h3>Skills</h3>
+                <div>
+                    <li>Rust: nannou, glib</li>
+                    <li>C/++: openFrameworks, OpenGL</li>
+                    <li>Python: numPy, sciPy, Librosa, matplotlib, Flask, Django</li>
+                    <li>Javascript: MERN Stack</li>
+                </div>
+                <h3>Interests</h3>
+                <div>
+                    <li>Creative Coding</li>
+                    <li>Signal/Audio Processing</li>
+                    <li>Computational Social Sciences</li>
+                    <li>Educational Technologies through NLP</li>
+                    <li>UI/UX Design</li>
+                </div>
+            </div>
+
+            <h2 id="generative">Generative Art</h2>
+            <p>Generative art refers to art that has been created with the use of an autonomous system. Here are some pieces I generated with p5js, processing, and openFrameworks (including the main portrait). </p>
+            <div class="gallery-container">
+                <div><img src="./gen_portfolio/basic_fractal.png" alt="" srcset=""></div>
+                <div><img src="./gen_portfolio/generative_portrait_1.png" alt="" srcset=""></div>
+                <div class="tall"><img src="./gen_portfolio/generative_portrait_2.png" alt="" srcset=""></div>
+                <div class="tall"><img src="./gen_portfolio/generative_portrait_3.png" alt="" srcset=""></div>
+                <div><img src="./gen_portfolio/generative_portrait_5.png" alt="" srcset=""></div>
+                <div class="big"><img src="./gen_portfolio/perlin.png" alt="" srcset=""></div>
+                <div><img src="./gen_portfolio/perlin_noise_3d.png" alt="" srcset=""></div>
+                <div><img src="./gen_portfolio/skyline.png" alt="" srcset=""></div>
+                <div><img src="./gen_portfolio/tiling.png" alt="" srcset=""></div>
+                <div><img src="./gen_portfolio/tiling2.png" alt="" srcset=""></div>
+            </div>
+            
+            <h2 id="nlp">Projects</h2>
+            <h3>Computational Social Science</h3>
+            <p>I am working on a Youtube channel, where I post videos of how to utilize computation to conduct studies within social sciences. For instance, natural language processing can be used to annalyze and compare the different texts found within certain groups. </p>
+            
+            <h3>NLP Models for Educational Technologies</h3>
+            <p>I am working on a webapp, where I try to utilize the state-of-the-art models (for instances the models built upon GPT technologies) in order to assist students in reading intensive classes.
+                If you are interested in assisting or would like to know more, please reach out through one of my social media links!
+            </p>
+
+        </article>
+        
+        <div class="art">
+            <!-- <img src="./img/tiling4.png" alt="tiling">  -->
+        </div>
+    </div>
 </body>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </html>
