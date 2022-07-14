@@ -1,29 +1,11 @@
 /* @import url('https://fonts.googleapis.com/css?family=Poppins'); */
 /* @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Courier+Prime'); */
-@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Alegreya+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Courier+New:wght@800&display=swap');
 
 body {
-    font-family: "Alegreya";
+    font-family: "Courier New";
     margin: 0;
-}
-
-.about > h3 {
-    padding: 0;
-    margin: 0;
-}
-
-.about {
-    margin-top: 30px;
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    gap: 10px;
-    justify-content: start;
-    align-items: start;
-}
-
-.about li {
-    list-style-type: '';
 }
 
 .grid-container {
@@ -40,6 +22,10 @@ body {
 
     background: #ff0038;
     height: 100vh;
+}
+
+.menu h1 {
+    font-size: 50px;
 }
 
 .art {
@@ -119,16 +105,13 @@ footer li {
 
 @media screen and (max-width: 900px) {
     .gallery-container {
-        grid-template-columns: 1fr;
-        grid-auto-rows: auto;
+        display: inline-block;
+        gap: 10px;
+        padding: 10px;
     }
     
-    .gallery-container > div {
-        display: grid;
-    }
-    
-    .gallery-container > div > img {
-        display: grid;
+    .gallery-container > img {
+        margin-bottom: 5px;
     }
     
     .art {
@@ -139,26 +122,7 @@ footer li {
 h1,
 h2,
 h3 {
-    font-family: "Alegreya Sans";
-}
-
-h2,
-h3 {
-    margin-bottom: 0;
-}
-
-h1 {
-    font-size: 60px;
-}
-
-h3 {
-    color: #555;
-    font-size: 35px;
-}
-
-li,
-p {
-    font-size: 20px;
+    font-family: "Monsterrat";
 }
 
 .menu-content li {
@@ -181,11 +145,19 @@ footer {
     width: 100%;
 }
 
-article {
-    padding: 0px 30px;
+.article-container {
+    margin: 5% 10%;
+    font-size: 110%;
 }
 
-article>h2 {
-    font-size: 40px;
-    color: #ff0038;
+.article-container p {
+    margin: 0;
+}
+
+.indent {
+    text-indent: 30px;
+}
+
+.double-indent {
+    text-indent: 60px;
 }
