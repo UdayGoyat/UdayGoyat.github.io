@@ -101,6 +101,10 @@ footer li {
     .about {
         grid-template-columns: 1fr;
     }
+
+    .art {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -114,9 +118,6 @@ footer li {
         margin-bottom: 5px;
     }
     
-    .art {
-        display: none;
-    }
 }
 
 h1,
